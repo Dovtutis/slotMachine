@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="efbe818c-b554-4e61-802a-2f1dcb6d9858" name="local" url="http://localhost/slotMachine/">
+        <fileTransfer mountedRoot="C:\wamp64\www\slotMachine" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

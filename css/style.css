@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.status {
+    font-weight: normal;
+    background-color: #d3d3d3;
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.error-msg {
+    margin: 10px 0;
+    font-weight: 600;
+    color: red;
+    text-align: center;
+    background-color: #ffb4a6;
+}
+
+.gameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.depositCashOutBox {
+    background-color: #ffb4a6;
+    border-radius: 10px;
+}
+
+.depositCashOutBox input {
+    min-width: 400px;
+}
+
+.depositCashOutBox {
+    padding: 30px;
+}
+
+.depositCashOutButton {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 15px 0;
+    cursor: pointer;
+    background-color: #a7776e;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 0;
+    transition: .2s;
+}
+
+.depositCashOutButton:hover {
+    transform: scale(.97);
+}
+
+.slotMachineContainer {
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: #ffb4a6;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.4);
+    width: 50%;
+}
+
+.gameImg {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.4);
+    margin: 5px;
+}
